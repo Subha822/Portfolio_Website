@@ -31,7 +31,7 @@ const HeroSection = () => {
           </h1>
           <div className="flex space-x-4 mt-6">
             <a
-              href="/resume.pdf"
+              href="/My_Resume.pdf"
               download="My_Resume.pdf"
               className="flex items-center bg-blue-500 hover:bg-blue-600 text-white px-5 py-2 rounded-lg"
             >
