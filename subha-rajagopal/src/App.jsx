@@ -10,6 +10,7 @@ import Projects from "./components/Projects";
 import Reviews from "./components/Reviews";
 import Contact from "./components/Contacts";
 import Footer from "./components/Footer";
+import Timeline from "./components/Timeline";
 
 const Portfolio = () => {
   return (
@@ -26,6 +27,8 @@ const Portfolio = () => {
 
       {/* Projects Section */}
      <Projects />
+
+     <Timeline />
 
       {/* Reviews Section */}
     <Reviews />

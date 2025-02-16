@@ -4,7 +4,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 const projects = [
   {
     title: "Keeper App",
-    image: "https://screenshots.codesandbox.io/cqqz39/0.png",
+    image: "/Project1.png",
     tags: [ "To-Do-List", "Development"],
     link: "https://angelaswebdev-production.up.railway.app/",
   },

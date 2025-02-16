@@ -3,8 +3,15 @@ import { motion } from "framer-motion";
 import { FaDownload, FaArrowDown } from "react-icons/fa";
 
 const HeroSection = () => {
+  const handleScroll = () => {
+    const timelineSection = document.getElementById("timeline");
+    if (timelineSection) {
+      timelineSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gray-900 text-white px-6">
+    <section className="min-h-screen flex items-center justify-center bg-gray-900 text-white px-6" id="home">
       <div className="max-w-4xl flex flex-col md:flex-row items-center">
         {/* Left Side - Text */}
         <motion.div
@@ -23,10 +30,17 @@ const HeroSection = () => {
             <span className="text-gray-300">for the Future</span>
           </h1>
           <div className="flex space-x-4 mt-6">
-            <button className="flex items-center bg-blue-500 hover:bg-blue-600 text-white px-5 py-2 rounded-lg">
+            <a
+              href="/resume.pdf"
+              download="My_Resume.pdf"
+              className="flex items-center bg-blue-500 hover:bg-blue-600 text-white px-5 py-2 rounded-lg"
+            >
               Download CV <FaDownload className="ml-2" />
-            </button>
-            <button className="flex items-center bg-gray-800 hover:bg-gray-700 text-white px-5 py-2 rounded-lg">
+            </a>
+            <button 
+              onClick={handleScroll}
+              className="flex items-center bg-gray-800 hover:bg-gray-700 text-white px-5 py-2 rounded-lg"
+            >
               Scroll down <FaArrowDown className="ml-2" />
             </button>
           </div>

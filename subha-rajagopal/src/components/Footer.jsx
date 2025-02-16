@@ -19,11 +19,11 @@ const Footer = () => {
         <div>
           <h4 className="text-lg font-semibold text-white">Sitemap</h4>
           <ul className="mt-2 space-y-1 text-gray-400">
-            <li><a href="#" className="hover:text-white">Home</a></li>
-            <li><a href="#" className="hover:text-white">About</a></li>
-            <li><a href="#" className="hover:text-white">Work</a></li>
-            <li><a href="#" className="hover:text-white">Reviews</a></li>
-            <li><a href="#" className="hover:text-white">Contact</a></li>
+            <li><a href="#home" className="hover:text-white">Home</a></li>
+            <li><a href="#about" className="hover:text-white">About</a></li>
+            <li><a href="#timeline" className="hover:text-white">Timeline</a></li>
+            <li><a href="#reviews" className="hover:text-white">Reviews</a></li>
+            <li><a href="#contact" className="hover:text-white">Contact</a></li>
           </ul>
         </div>
 
@@ -31,10 +31,8 @@ const Footer = () => {
         <div>
           <h4 className="text-lg font-semibold text-white">Socials</h4>
           <ul className="mt-2 space-y-1 text-gray-400">
-            <li><a href="#" className="hover:text-white flex items-center"><FaGithub className="mr-2" /> GitHub</a></li>
-            <li><a href="#" className="hover:text-white flex items-center"><FaLinkedin className="mr-2" /> LinkedIn</a></li>
-            <li><a href="#" className="hover:text-white flex items-center"><FaInstagram className="mr-2" /> Instagram</a></li>
-            <li><a href="#" className="hover:text-white flex items-center"><FaCodepen className="mr-2" /> CodePen</a></li>
+            <li><a href="https://github.com/Subha822" className="hover:text-white flex items-center"><FaGithub className="mr-2" /> GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/subharajagopal/" className="hover:text-white flex items-center"><FaLinkedin className="mr-2" /> LinkedIn</a></li>
           </ul>
         </div>
       </div>

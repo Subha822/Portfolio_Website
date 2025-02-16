@@ -13,10 +13,8 @@ const Contact = () => {
             Reach out today to discuss your project needs and start collaborating on something amazing!
           </p>
           <div className="flex space-x-4 mt-4">
-            <a href="#" className="text-gray-400 hover:text-white transition"><FaGithub size={24} /></a>
-            <a href="#" className="text-gray-400 hover:text-white transition"><FaLinkedin size={24} /></a>
-            <a href="#" className="text-gray-400 hover:text-white transition"><FaInstagram size={24} /></a>
-            <a href="#" className="text-gray-400 hover:text-white transition"><FaCodepen size={24} /></a>
+            <a href="https://github.com/Subha822" className="text-gray-400 hover:text-white transition"><FaGithub size={24} /></a>
+            <a href="https://www.linkedin.com/in/subharajagopal/" className="text-gray-400 hover:text-white transition"><FaLinkedin size={24} /></a>
           </div>
         </div>
       {/* Contact Form */}

@@ -2,27 +2,24 @@ import React from "react";
 
 const reviews = [
   {
-    name: "Liam Bennett",
-    company: "CodeCraft",
-    review: "Outstanding developer! Built a robust site with perfect functionality. Efficient and detail-oriented.",
+    name: "Sejal Vakharia",
+    company: "ACE Overseas Education Consultants",
+    role:" Data Research Analyst, Online Event Management Trainee, Summit Co-ordinator, and Email Marketer.",
+    review: "She has made valuable contributions in devising social media research techniques and data collection. She has worked with us in all the departments of our company. The work allocated to her was perfectly implemented. The task given to her was completed before the deadline. We highly recommend her.",
     rating: 5,
   },
   {
-    name: "Noah Williams",
-    company: "BrightWeb",
-    review: "Creative and skilled! Produced a modern, user-friendly site that exceeded expectations. Great communication.",
+    name: "Avinash Tewari",
+    role:"Business Development Executive",
+    company: "9.0 Career Cafe",
+    review: "During the course of internship, she has shown great amount of responsibility, sincerity and a genuine willingness to learn and zeal to take on new assignments & challenges. In particular, her coordination skills and communication skills are par excellence and her attention to details are impressive. ",
     rating: 5,
   },
   {
-    name: "Ava Thompson",
-    company: "TechMosaic",
-    review: "Professional work! Delivered on time, with a polished design and smooth user experience. Top-notch developer.",
-    rating: 5,
-  },
-  {
-    name: "Jonathan Smith",
-    company: "Skyline Digital",
-    review: "Excellent project with responsive design and great problem-solving skills.",
+    name: "Balaji M",
+    role:"Software Engineer",
+    company: "SmartiApps Technologies",
+    review: "During her tenure with us, we found she is hard working and her conduct is good.",
     rating: 5,
   },
 ];
@@ -35,9 +32,13 @@ const Reviews = () => {
         {reviews.map((review, index) => (
           <div key={index} className="bg-gray-800 p-6 rounded-xl shadow-lg">
             {/* Stars */}
+            <div className="flex mb-2 font-semibold">
+              {review.role}
+            </div>
             <div className="flex mb-2">
               {"⭐".repeat(review.rating)}
             </div>
+            
             <p className="text-sm mb-4">{review.review}</p>
             <div className="flex items-center mt-4">
               <div>
