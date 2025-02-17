@@ -19,12 +19,12 @@ const Contact = () => {
         </div>
       {/* Contact Form */}
       <div className="flex-1">
-        <form className="bg-gray-800 p-6 rounded-xl shadow-lg">
+        <form className="bg-gray-800 p-6 rounded-xl shadow-lg" action="https://getform.io/f/bvrwrldb" method="POST">
           <div className="flex gap-4 mb-4">
-            <input type="text" placeholder="Name" className="w-1/2 p-3 rounded bg-gray-900 text-white outline-none" />
-            <input type="email" placeholder="Email" className="w-1/2 p-3 rounded bg-gray-900 text-white outline-none" />
+            <input type="text" placeholder="Name" name="usname" className="w-1/2 p-3 rounded bg-gray-900 text-white outline-none" />
+            <input type="email" placeholder="Email" name="uemail" className="w-1/2 p-3 rounded bg-gray-900 text-white outline-none" />
           </div>
-          <textarea placeholder="Message" className="w-full p-3 rounded bg-gray-900 text-white outline-none h-24"></textarea>
+          <textarea placeholder="Message" name="umessage" className="w-full p-3 rounded bg-gray-900 text-white outline-none h-24"></textarea>
           <button className="w-full bg-blue-500 text-white p-3 rounded mt-4 hover:bg-blue-600">Submit</button>
         </form>
       </div>

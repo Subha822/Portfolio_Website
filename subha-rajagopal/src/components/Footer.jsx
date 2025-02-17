@@ -9,7 +9,8 @@ const Footer = () => {
         <div>
           <h3 className="text-2xl font-bold text-white">Let's work together today!</h3>
           <a 
-            href="#contact"
+             href="/My_Resume.pdf"
+              download="My_Resume.pdf"
             className="inline-block mt-4 px-6 py-3 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-600 transition">
             Start Project →
           </a>
