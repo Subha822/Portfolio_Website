@@ -9,10 +9,10 @@ const projects = [
     link: "https://angelaswebdev-production.up.railway.app/",
   },
   {
-    title: "Free stock photo app",
-    image: "https://screenshots.codesandbox.io/cqqz39/0.png",
-    tags: ["API", "SPA"],
-    link: "#",
+    title: "Tiny Dog Website",
+    image: "/Project2.png",
+    tags: ["Bootstrap", "Website"],
+    link: "https://tinydog.up.railway.app/",
   },
   {
     title: "Recipe app",
