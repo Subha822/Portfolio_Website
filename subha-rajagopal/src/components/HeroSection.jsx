@@ -54,7 +54,7 @@ const HeroSection = () => {
           className="mt-10 md:mt-0 md:ml-10"
         >
           <img
-            src="https://media.licdn.com/dms/image/v2/D5603AQFYvFmai-bGnA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1688104112532?e=1744848000&v=beta&t=0nYSwX29P67G5WV58y5MW-H0eee1c8TD9ngJHhUYqyo"
+            src="https://media.licdn.com/dms/image/v2/D5603AQFYvFmai-bGnA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1688104112532?e=1756944000&v=beta&t=4xD_0N6zhBBKHmv8rZ2KBnXl8DB3WYrzRvP2sCMuhxk"
             alt="Profile"
             className="rounded-2xl shadow-lg"
           />
