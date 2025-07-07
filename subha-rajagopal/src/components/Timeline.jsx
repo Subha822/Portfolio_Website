@@ -8,6 +8,8 @@ const timelineData = [
   { year: "Jul 2021 - Aug 2021", title: "Content Creation and Graphic Designing", description: "Fantastiqo Education Private Limited", icon: <FaBriefcase />, color: "border-blue-400 text-blue-400 bg-blue-900" },
   { year: "Aug 2021 - Aug 2021", title: "Business Development Executive", description: "9 Career Cafe", icon: <FaBusinessTime />, color: "border-teal-400 text-teal-400 bg-teal-900" },
   { year: "May 2022 - Apr 2024", title: "Software Engineer", description: "SmartiApps Technologies", icon: <FaCode />, color: "border-orange-400 text-orange-400 bg-orange-900" },
+  { year: "Apr 2025 - Present", title: "Software Engineer", description: "SpiderIndia", icon: <FaCode />, color: "border-orange-400 text-orange-400 bg-orange-900" },
+
   { year: "", title: "", description: "", icon: <FaPlus />, color: "border-gray-400 text-gray-400 bg-gray-900" },
 ];
 
